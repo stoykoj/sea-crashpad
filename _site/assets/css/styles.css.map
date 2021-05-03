@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\r\n    color: green;\r\n  }"
+		"body {\r\n  font-family: \"Sawarabi Gothic\", sans-serif !important;\r\n}\r\n\r\n.carousel-item {\r\n  max-height: 575px;\r\n}\r\n\r\n.carousel-caption {\r\n  background: rgba(0, 0, 0, 0.75);\r\n  padding-left: 3px;\r\n  padding-right: 3px;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,wCAAwC,GACtD;;AAED,AAAA,cAAc,CAAC,EACb,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,iBAAiB,CAAC,EAChB,UAAU,EAAE,mBAAmB,EAC/B,YAAY,EAAE,GAAG,EACjB,aAAa,EAAE,GAAG,GACnB"
 }
