@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		"body {\r\n  font-family: \"Sawarabi Gothic\", sans-serif !important;\r\n}\r\n\r\n.carousel-item {\r\n  max-height: 575px;\r\n}\r\n\r\n.carousel-caption {\r\n  background: rgba(0, 0, 0, 0.75);\r\n  padding-left: 3px;\r\n  padding-right: 3px;\r\n}"
+		"$baseurl: \"\";\n@import \"main\";",
+		"body {\r\n  font-family: \"Sawarabi Gothic\", sans-serif !important;\r\n}\r\n\r\n// .carousel-item {\r\n//   max-height: 575px;\r\n// }\r\n\r\n.caption {\r\n  background: rgba(0, 0, 0, 0.75);\r\n  padding-left: 3px;\r\n  padding-right: 3px;\r\n}\r\n\r\n.kitchen-img {\r\n  background-image: url($baseurl+\"/assets/images/kitchen-min-2.jpeg\");\r\n  background-repeat: no-repeat;\r\n  height: 30em;\r\n  padding-top: 15em;\r\n  padding-left: 0 !important;\r\n  padding-right: 0 !important;\r\n}\r\n\r\n.about-text {\r\n  text-align: right;\r\n  color: whitesmoke;\r\n  padding: 1em;\r\n  background-color: rgba(0, 0, 0, 0.6);\r\n}\r\n\r\n.center {\r\n  text-align: center;\r\n}\r\n\r\n.margin-2 {\r\n  margin: 2em;\r\n}\r\n\r\n.height-300 {\r\n  height: 300px !important;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,wCAAwC,GACtD;;AAED,AAAA,cAAc,CAAC,EACb,UAAU,EAAE,KAAK,GAClB;;AAED,AAAA,iBAAiB,CAAC,EAChB,UAAU,EAAE,mBAAmB,EAC/B,YAAY,EAAE,GAAG,EACjB,aAAa,EAAE,GAAG,GACnB"
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,WAAW,EAAE,wCAAwC,GACtD;;AAMD,AAAA,QAAQ,CAAC,EACP,UAAU,EAAE,mBAAmB,EAC/B,YAAY,EAAE,GAAG,EACjB,aAAa,EAAE,GAAG,GACnB;;AAED,AAAA,YAAY,CAAC,EACX,gBAAgB,EAAE,wCAAiD,EACnE,iBAAiB,EAAE,SAAS,EAC5B,MAAM,EAAE,IAAI,EACZ,WAAW,EAAE,IAAI,EACjB,YAAY,EAAE,YAAY,EAC1B,aAAa,EAAE,YAAY,GAC5B;;AAED,AAAA,WAAW,CAAC,EACV,UAAU,EAAE,KAAK,EACjB,KAAK,EAAE,UAAU,EACjB,OAAO,EAAE,GAAG,EACZ,gBAAgB,EAAE,kBAAkB,GACrC;;AAED,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,MAAM,GACnB;;AAED,AAAA,SAAS,CAAC,EACR,MAAM,EAAE,GAAG,GACZ;;AAED,AAAA,WAAW,CAAC,EACV,MAAM,EAAE,gBAAgB,GACzB"
 }
