@@ -4,7 +4,9 @@ body { font-family: "Sawarabi Gothic", sans-serif !important; }
 
 .carousel-caption { background: rgba(0, 0, 0, 0.75); padding-left: 3px; padding-right: 3px; }
 
-.kitchen-img { background-image: url("/assets/images/kitchen-min-2.jpeg"); background-repeat: no-repeat; height: 30em; padding-top: 15em; padding-left: 0 !important; padding-right: 0 !important; }
+.kitchen-img { background-image: url("/assets/images/kitchen-min-2.jpeg"); background-repeat: no-repeat; background-position: center center; height: 30em; padding-top: 15em; padding-left: 0 !important; padding-right: 0 !important; }
+
+.logo-img { background-image: url("/assets/images/logo-min-2.jpeg"); background-repeat: no-repeat; background-position: center center; background-size: cover; height: 30em; padding-top: 20em; padding-left: 0 !important; padding-right: 0 !important; }
 
 .about-text { text-align: right; color: whitesmoke; padding: 1em; background-color: rgba(0, 0, 0, 0.6); }
 

@@ -15,8 +15,20 @@ body {
 .kitchen-img {
   background-image: url($baseurl+"/assets/images/kitchen-min-2.jpeg");
   background-repeat: no-repeat;
+  background-position: center center;
   height: 30em;
   padding-top: 15em;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.logo-img {
+  background-image: url($baseurl+"/assets/images/logo-min-2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 30em;
+  padding-top: 20em;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
