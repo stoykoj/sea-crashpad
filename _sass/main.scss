@@ -51,3 +51,24 @@ body {
 .height-300 {
   height: 300px !important;
 }
+
+.mobile-show {
+  display: none;
+}
+
+.mt-1 {
+  margin-top: 1em !important;
+}
+
+.mt-2 {
+  margin-top: 2em !important;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) { 
+  .mobile-show {
+    display: inline;
+  }
+}
